@@ -6,6 +6,8 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
+// Portfolio website for Sushmit Rajaure
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
