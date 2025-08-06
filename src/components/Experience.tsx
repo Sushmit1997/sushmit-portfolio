@@ -4,60 +4,61 @@ import { Card, CardContent } from "@/components/ui/card";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Engineer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      type: "Full-time",
-      achievements: [
-        "Led development of microservices architecture serving 100K+ users",
-        "Mentored 3 junior developers and established code review processes",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Built React-based dashboard improving user engagement by 40%"
-      ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL"]
-    },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
-      period: "2020 - 2022",
-      type: "Full-time",
-      achievements: [
-        "Developed MVP from scratch using React and Golang",
-        "Integrated payment systems processing $2M+ in transactions",
-        "Optimized database queries improving response time by 70%",
-        "Collaborated with design team to implement pixel-perfect UIs"
-      ],
-      technologies: ["React", "Golang", "MongoDB", "Stripe", "Redis"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency Pro",
+      title: "Full Stack Software Engineer",
+      company: "Optible AI",
       location: "Remote",
-      period: "2019 - 2020",
-      type: "Contract",
-      achievements: [
-        "Built responsive websites for 15+ clients across various industries",
-        "Implemented modern JavaScript frameworks and best practices",
-        "Improved website performance scores by average of 45%",
-        "Delivered projects on time with 98% client satisfaction rate"
-      ],
-      technologies: ["React", "Vue.js", "TypeScript", "Sass", "Webpack"]
-    },
-    {
-      title: "Junior Software Engineer",
-      company: "Enterprise Solutions Inc",
-      location: "New York, NY",
-      period: "2018 - 2019",
+      period: "Sep 2023 - Present",
       type: "Full-time",
       achievements: [
-        "Maintained legacy Java applications serving internal teams",
-        "Migrated monolithic applications to modular architecture",
-        "Reduced bug reports by 35% through comprehensive testing",
-        "Contributed to technical documentation and knowledge sharing"
+        "Developed a modular form builder using React, improving flexibility and time-to-deployment for clients",
+        "Built and maintained backend microservices using Go and GRPC, ensuring scalable cross-service communication",
+        "Contributed to backend orchestration using Temporal, handling long-running workflows efficiently",
+        "Managed database migrations and optimized SQL queries across distributed systems",
+        "Implemented module federation to streamline UI component reuse across teams",
+        "Utilized GraphQL for efficient data fetching and seamless frontend-backend integration",
+        "Added multilingual support and enhanced accessibility, improving user inclusivity",
+        "Worked on refactoring, debugging, and full-stack feature implementation in a fast-paced agile environment"
       ],
-      technologies: ["Java", "Spring Boot", "MySQL", "JUnit", "Maven"]
+      technologies: ["React", "Go", "GRPC", "Temporal", "GraphQL", "SQL", "Module Federation"]
+    },
+    {
+      title: "Software Engineer",
+      company: "Leapfrog Technology",
+      location: "Kathmandu, Nepal",
+      period: "Nov 2021 - Sep 2023",
+      type: "Full-time",
+      achievements: [
+        "Spearheaded frontend development for U.S.-based healthcare platforms using React, significantly enhancing UX",
+        "Maintained and improved Node.js backends, working closely with Product and UI/UX teams",
+        "Delivered cross-functional features by collaborating with designers, QA, and backend teams in agile sprints",
+        "Ensured production stability through test-driven development and continuous refactoring"
+      ],
+      technologies: ["React", "Node.js", "JavaScript", "TypeScript", "Healthcare Systems"]
+    },
+    {
+      title: "React Engineer / Designer / DevOps",
+      company: "Esignature Pvt Ltd",
+      location: "Kathmandu, Nepal",
+      period: "Sep 2020 - Oct 2021",
+      type: "Full-time",
+      achievements: [
+        "Designed and developed responsive web apps using React (JavaScript/TypeScript) aligned with Figma mockups",
+        "Deployed applications via AWS S3 and Amplify, ensuring continuous delivery and scalability",
+        "Collaborated with designers and analysts in Agile teams to ship features efficiently"
+      ],
+      technologies: ["React", "JavaScript", "TypeScript", "AWS S3", "AWS Amplify", "Figma"]
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "Leapfrog Technology",
+      location: "Kathmandu, Nepal",
+      period: "Jun 2020 - Aug 2020",
+      type: "Internship",
+      achievements: [
+        "Worked on vanilla JS projects to solidify understanding of core web technologies",
+        "Completed mini-projects and participated in internal code reviews and design sprints"
+      ],
+      technologies: ["JavaScript", "HTML", "CSS", "Web Technologies"]
     }
   ];
 
