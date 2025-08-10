@@ -65,13 +65,13 @@ const Contact = () => {
     {
       icon: <Phone size={20} />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+977 9813058480",
+      href: "tel:+9779813058480"
     },
     {
       icon: <MapPin size={20} />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Kathmandu, Nepal",
       href: "#"
     }
   ];
@@ -80,8 +80,8 @@ const Contact = () => {
     {
       icon: <Github size={20} />,
       label: "GitHub",
-      href: "https://github.com/sushmit-rajaure",
-      username: "@sushmit-rajaure"
+      href: "https://github.com/Sushmit1997",
+      username: "@Sushmit1997"
     },
     {
       icon: <Linkedin size={20} />,
@@ -92,8 +92,8 @@ const Contact = () => {
     {
       icon: <Youtube size={20} />,
       label: "YouTube",
-      href: "https://youtube.com/@sushmit-rajaure",
-      username: "@sushmit-rajaure"
+      href: "https://www.youtube.com/@sushmit_rajaure",
+      username: "@sushmit_rajaure"
     }
   ];
 
@@ -173,7 +173,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="lg:col-span-2">
+            {/* <div className="lg:col-span-2">
               <Card className="card-gradient border-border/50 hover-glow">
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-semibold text-foreground mb-6">
@@ -267,7 +267,21 @@ const Contact = () => {
                   </form>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
+
+            {/* Contact Form */}
+            <div className="lg:col-span-2" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+              <iframe
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/-JJQQqktbTY?si=UNvYNKQlmyUay0BS&amp" 
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              ></iframe>
+             </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Full Stack Software Engineer",
       company: "Optible AI",
       location: "Remote",
-      period: "Sep 2023 - Present",
+      period: "Sep 2023 - Aug 2025",
       type: "Full-time",
       achievements: [
         "Developed a modular form builder using React, improving flexibility and time-to-deployment for clients",

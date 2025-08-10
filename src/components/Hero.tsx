@@ -28,7 +28,7 @@ const Hero = () => {
               <img
                 src={profilePhoto}
                 alt="Sushmit Rajaure"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transform scale-150"
               />
             </div>
             <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full animate-pulse"></div>
@@ -76,7 +76,7 @@ const Hero = () => {
               asChild
             >
               <a
-                href="https://github.com/sushmit-rajaure"
+                href="https://github.com/Sushmit1997"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -91,7 +91,7 @@ const Hero = () => {
               asChild
             >
               <a
-                href="https://youtube.com/@sushmit-rajaure"
+                href="https://www.youtube.com/@sushmit_rajaure"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
@@ -110,14 +110,14 @@ const Hero = () => {
             >
               Get In Touch
             </Button>
-            <Button
+            {/* <Button
               variant="outline"
               size="lg"
               className="border-primary/20 hover:border-primary/50 px-8 py-3"
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               View My Work
-            </Button>
+            </Button> */}
           </div>
 
           {/* Scroll Indicator */}
