@@ -18,15 +18,15 @@ const About = () => {
     {
       category: "Tools & DevOps",
       icon: <Code className="w-6 h-6" />,
-      technologies: ["Docker", "Kubernetes", "AWS", "Git", "Jenkins", "Terraform"],
+      technologies: ["Docker", "AWS", "Git"],
       color: "text-purple-400"
     },
-    {
-      category: "Mobile",
-      icon: <Smartphone className="w-6 h-6" />,
-      technologies: ["React Native", "Flutter", "iOS", "Android", "PWA"],
-      color: "text-orange-400"
-    },
+    // {
+    //   category: "Mobile",
+    //   icon: <Smartphone className="w-6 h-6" />,
+    //   technologies: ["React Native", "Flutter", "iOS", "Android", "PWA"],
+    //   color: "text-orange-400"
+    // },
   ];
 
   return (
@@ -79,7 +79,7 @@ const About = () => {
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">50+</div>
+                  <div className="text-3xl font-bold text-primary mb-2">10+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </div>
                 <div className="text-center">
